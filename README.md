@@ -33,7 +33,7 @@ Geralmente os modelos DeepLearning são treinados com duas classes, e, embora po
 ``` "labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}```
 
 ### Nota:
-Adicionamos a classe `"NIMG" (NÃO IMAGEM)` útil no modo webcam, impedindo falsos positivos/negativos quando a leitura fora da área de leitura das imagens fisicas de raio x ou tomografica. ssa clase signfica "NÃO IMAGEM"
+Adicionamos a classe `"NIMG" (NÃO IMAGEM)` útil no modo webcam, impedindo falsos positivos/negativos quando fora da área de leitura das imagens fisicas de raio x ou tomografica.
 
 ### Resultados:
 - Identificamos subnotificão em bases oficiais.
