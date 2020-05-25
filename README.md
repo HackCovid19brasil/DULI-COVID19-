@@ -36,7 +36,7 @@ Geralmente os modelos DeepLearning são treinados com duas classes, e, embora po
 Adicionamos a classe `"NIMG" (NÃO IMAGEM)` útil no modo webcam, impedindo falsos positivos/negativos quando fora da área de leitura das imagens fisicas de raio x ou tomografica.
 
 ### Resultados:
-- Identificamos subnotificão em bases oficiais.
+- Identificamos subnotificação em bases oficiais.
 - Sabendo-se o correto diagnóstico/classificação orientamos os profissionais de saúde em ações assertivas/efetivas.
 - Reverter o quadro: "Em pandemias morrem mais pessoas lambanças médicas, políticas e da população ontem, hoje e menos amanhã.
 
