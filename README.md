@@ -1,4 +1,5 @@
-# Detector Universal de Lesões Covid-19 por imagens##
+# Detector Universal de Lesões por imagens
+
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/426/datas/original.png" /><br /><br />
@@ -9,11 +10,14 @@
 O Modelo foi treinado usando a biblioteca [TensorFlow.js](https://js.tensorflow.org/).
 
 Voce pode customizar seus próprios projetos e treinar seus modelo apartir deste GitHub.
-Para o desafio hackcovid19, treinamos o Modelo Mellieri MCD19 usando datasets [Sandeco - Normal e Covid-19](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [ieee8023/covid-chestxray-dataset](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images)
+Para o desafio hackcovid19, treinamos o Modelo Mellieri MCD19 usando datasets [CanalSandeco](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [ieee8023/covid-chestxray-dataset](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [COVID-Net Open Source Initiative](https://github.com/lindawangg/COVID-Net),  [COVID-CT-Dataset: A CT Scan Dataset about COVID-19](https://github.com/UCSD-AI4H/COVID-CT),  [National Institutes of Health](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images), [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)
 
-### Porque usar dois data-sets? 
+### Porque vários data-sets? 
 
-Usamos o dataset especialiazado Sandeco (Noramal e Covid-19 o que gera elevada acurácia, e o data set ieee8023/covid-chestxray-dataset com diversar classes patológicas, unindo o melhor dos dois mundos: especialidade e generalidade:
+É comum nos modelos de detectção de covid-19 em imagens médicas o uso de dois tipos de imagens devido a eleva acurácia (96%) usando imagens:
+1 - "NORMAL"
+2 - "COVID-19", no entanto isto não esplica subnotificação, falso positivo ou negativo, ou o numero exorbitante e assustador de pacientes que morrem 'aguardando o resultado' do diagnóstico.
+3 - "Patologinas Genéricas". Acrescentamos diversar classes patológicas a nosso modelo:
 
 {"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1","labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}
 
@@ -29,8 +33,13 @@ mais ou menos tempo para vc iar a praia, passear com seu cachorro, amar, pular c
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/457/datas/original.png" /><br /><br />
 </div>
 
-### Você tem uma imagem ai testar agora !! [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
+### Você tem uma imagem ai para testar agora \o/ ??!! \o/ [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
+### Próximo passos.
+
+1 - Detector de patologias por voz/assistentes uma treinado o modelo por voz, convertendo as analises clinicas em voz 
+2 - Detector Universal de Patologias (cancer, insuficência cardíaca) uma vez que temos e aumentaremos o acesso a diversidade de datasetes não disponiveis até pouco tempo o que demanda parceria com o [NLCC](https://www.lncc.br/). Modelado e treinado, distribuimos carga aos AWS privados para tornar escalável a solução.
+NOTA: 80% dos óbitos intalianos estavam associados a cardiopatia, mas não ficou claro se eram grupos de riscos ou resultante de lesões provovocadas pelo covid-19. Agora podemos descobrir, pela correlação e análise de diversas patologias, traçando a correlação covid-19.
 
 ### Desenvolvimento
 ## Instale dependências executando (semelhante a npm install)
