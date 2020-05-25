@@ -25,8 +25,8 @@ Treinar o modelo Deep Learning [DULI](https://teachablemachine.withgoogle.com/mo
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
 </div> 
 
-### Para mudar isso incluimos no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) as classes:
-- `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em `assertividade` do modelo.
+### Para mudar este cenári, incluimos as classes CPGC no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) - São elas: 
+- `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em `assertividade` do modelo  [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) .
 - As classes `CPGC`:
 
 `{"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1",`
