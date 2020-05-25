@@ -19,7 +19,7 @@ O Modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) foi tr
 Geralmente os modelos DeepLearning para detecção de patologias são treinados com duas classes, e, embora possuam elevada `acurácia`, (96%) possuem zero assertividade a saber:
 - `"NORMAL"`
 - `"COVID-19"`. 
-- Imcapacidade de detectar outras patologias normalmente associadas ao COVID-19, resultando em zero assertividade, ou seja, `subnotificação`, que significam elevado número de óbitos de pacientes em casa ou nos hospitais `Aguardando Resultado`.
+- Incapacidade de detectar outras patologias normalmente associadas ao COVID-19, resultando em zero assertividade, ou seja, `subnotificação`, que significam elevado número de óbitos de pacientes em casa ou nos hospitais `Aguardando Resultado`.
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
