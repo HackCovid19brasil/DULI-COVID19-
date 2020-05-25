@@ -16,10 +16,10 @@ O Modelo DULI foi treinado usando a biblioteca [TensorFlow.js](https://js.tensor
 [`CanalSandeco`](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [`ieee8023/covid-chestxray-dataset`](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [`COVID-Net Open Source Initiative`](https://github.com/lindawangg/COVID-Net),  [`COVID-CT-Dataset: A CT Scan Dataset about COVID-19`](https://github.com/UCSD-AI4H/COVID-CT),  [`National Institutes of Health`](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images) e [`JHU CSSE COVID-19 Dataset`](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 ### Diversidade de datasets? 
-Em geral, os modelos deeplearning são treinados com apenas duas classes, motivados pela melhor `acurácia` (96%):
+Ps modelos DeepLearning geralmente são treinados com apenas duas classes, motivados pela busca da melhor `acurácia`, (96%):
 - `"NORMAL"`
 - `"COVID-19"` 
-Isso signfica incapacidade de detectar outras patologias (`falso positivo`e `falso negativo`) ou seja, um  exorbitante e assustador número de pacientes que morrem em casa ou nos hospitais `aguardando o resultado do diagnóstico`.
+Isso signfica zero assertividade em detectar outras patologias normalmente associadas ao COVID-19, ou seja,  `subnotificação`, gerando um  exorbitante e assustador número de pacientes que morrem em casa ou nos hospitais `Aguardando Resultado`.
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
