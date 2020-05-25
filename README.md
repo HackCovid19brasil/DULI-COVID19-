@@ -1,4 +1,4 @@
-# DULI: Detector Universal de Lesões por Imagens
+# [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr): Detector Universal de Lesões por Imagens
 
 
 <div align="center">
@@ -9,9 +9,9 @@
 ## Sobre
 O Modelo DULI foi treinado usando a biblioteca [TensorFlow.js](https://js.tensorflow.org/).
 
-## Customize e treine seus modelo apartir do Modelo DULI.
+### Customize e treine seus modelo apartir do Modelo DULI.
 
-## Para o desafio [#hackcovid19]( https://devpost.com/software/covid-19-detect-ii), treinamos o modelo DULI usando os datasets:
+### Para o desafio [#hackcovid19]( https://devpost.com/software/covid-19-detect-ii), treinamos o modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) usando os datasets:
 
 [`CanalSandeco`](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [`ieee8023/covid-chestxray-dataset`](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [`COVID-Net Open Source Initiative`](https://github.com/lindawangg/COVID-Net),  [`COVID-CT-Dataset: A CT Scan Dataset about COVID-19`](https://github.com/UCSD-AI4H/COVID-CT),  [`National Institutes of Health`](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images) e [`JHU CSSE COVID-19 Dataset`](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
@@ -25,7 +25,7 @@ Ps modelos DeepLearning geralmente são treinados com apenas duas classes, motiv
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
 </div> 
 
-## Para mudar isso incluimos no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) as classes:
+### Para mudar isso incluimos no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) as classes:
 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em melhor `assertividade`.
 - As `CPGC`:
 
@@ -33,7 +33,7 @@ Ps modelos DeepLearning geralmente são treinados com apenas duas classes, motiv
 
 ``` "labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}```
 
-# Nota:
+### Nota:
 Adicionamos a classe "NIMG" para quando for usado webcam para leitura de raio x ou tomografia não gerando falsos (positivos e negativos) quando fora da área de leitura da imagem. Essa clase signfica "NÃO IMAGEM"
 
 ### Resultados:
@@ -78,5 +78,5 @@ openssl req -new -x509 -sha256 -key server.key -out server.cer -days 365 -subj /
 ````
 2 - Use `yarn run watch-https`
 3 - Acesse `https://SEUIP:3000`, aceite o aviso de privacidade e continue.
-## Crédito
+### Crédito
 Este não é um produto oficial do Google, mas um experimento que foi um esforço colaborativo de amigos das equipes [Støj](http://stoj.io/), [Use All Five](https://useallfive.com/) and Creative Lab and [PAIR](https://ai.google/pair/) do Google.
