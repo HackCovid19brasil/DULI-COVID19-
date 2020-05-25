@@ -26,7 +26,7 @@ mais ou menos óbitos.
 mais ou menos tempo para vc iar a praia, passear com seu cachorro, amar, pular carnaval, ir a igreja, ...,...
 
 <div align="center">
-  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/426/datas/original.png" /><br /><br />
+  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/457/datas/original.png" /><br /><br />
 </div>
 
 ### Você tem uma imagem ai testar agora !! [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
@@ -42,8 +42,9 @@ yarn
 yarn build
 ```
 ### Inicie o servidor local executando
-``` yarn run watch
-````
+``` 
+yarn run watch
+```
 ### Estilos de código
 - Existe um gancho de pré-confirmação configurado que evitará confirmações quando houver erros
 - Executar `yarn eslint` para es6 de erros e avisos
@@ -57,6 +58,6 @@ https é necessário para que as permissões da câmera do pc ou celular funcion
 openssl req -new -x509 -sha256 -key server.key -out server.cer -days 365 -subj /CN=YOUR_IP
 ````
 2 - Use `yarn run watch-https`
-3 - Acesse https://SEUIP:3000, aceite o aviso de privacidade e continue.
+3 - Acesse `https://SEUIP:3000`, aceite o aviso de privacidade e continue.
 ## Crédito
 Este não é um produto oficial do Google, mas um experimento que foi um esforço colaborativo de amigos das equipes [Støj](http://stoj.io/), [Use All Five](https://useallfive.com/) and Creative Lab and [PAIR](https://ai.google/pair/) do Google.
