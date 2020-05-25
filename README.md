@@ -40,7 +40,7 @@ mais ou menos tempo para vc iar a praia, passear com seu cachorro, amar, pular c
 ### Próximo passos.
 
 1 - Detector de patologias por voz/assistentes uma treinado o modelo por voz, convertendo as analises clinicas em voz 
-2 - Detector Universal de Patologias (cancer, insuficência cardíaca) uma vez que temos e aumentaremos o acesso a diversidade de datasetes não disponiveis até pouco tempo o que demanda parceria com o [NLCC](https://www.lncc.br/). Modelado e treinado, distribuimos carga aos AWS privados para tornar escalável a solução.
+2 - Detector Universal de Patologias (cancer, insuficência cardíaca) uma vez que temos e aumentaremos o acesso a diversidade de datasetes não disponiveis até pouco tempo o que demanda parceria com o [NLCC](htt ps://www.lncc.br/). Modelado e treinado, distribuimos carga aos AWS privados para tornar escalável a solução.
 NOTA: 80% dos óbitos intalianos estavam associados a cardiopatia, mas não ficou claro se eram grupos de riscos ou resultante de lesões provovocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias, traçando a correlação COVID-19.
 
 ### Desenvolvimento
