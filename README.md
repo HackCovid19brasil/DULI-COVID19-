@@ -9,7 +9,7 @@
 ## Sobre
 O Modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) foi treinado usando a biblioteca [TensorFlow.js](https://js.tensorflow.org/).
 
-### Customize e treine seus modelo apartir do Modelo DULI.
+### Desenvolva seus projetos, customize e treine seus modelos usando [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
 ### Para o desafio [#hackcovid19]( https://devpost.com/software/covid-19-detect-ii), treinamos o modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) usando os datasets:
 
