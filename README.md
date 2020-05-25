@@ -13,10 +13,10 @@ Voce pode customizar seus próprios projetos e treinar seus modelo apartir deste
 Para o desafio hackcovid19, treinamos o DULI usando datasets [CanalSandeco](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [ieee8023/covid-chestxray-dataset](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [COVID-Net Open Source Initiative](https://github.com/lindawangg/COVID-Net),  [COVID-CT-Dataset: A CT Scan Dataset about COVID-19](https://github.com/UCSD-AI4H/COVID-CT),  [National Institutes of Health](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images), [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 ### Porque vários datasets? 
-É comum os modelos de detectção de COVID-19 usarem apenas duas classes em busca da melhor (96%) usando imagens:
+É comum os modelos de detectção de COVID-19 usarem apenas duas classes em busca da melhor `acurácia` (96%) usando imagens:
 1 - `"NORMAL"`.
 2 - `"COVID-19"`, no entanto isto não esplica subnotificação, falso positivo ou negativo, ou o numero exorbitante e assustador de pacientes que morrem `aguardando o resultado do diagnóstico`.Para mudar isso incluimos incluimos as classes:
-3 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Aumento signficativo da assertividade do Modelo: São elas:
+3 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Obtemos melhor `assertividade`. São elas:
 
 `{"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1",`
 
