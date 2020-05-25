@@ -13,13 +13,14 @@ Voce pode customizar seus próprios projetos e treinar seus modelo apartir deste
 Para o desafio hackcovid19, treinamos o Modelo Mellieri MCD19 usando datasets [CanalSandeco](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [ieee8023/covid-chestxray-dataset](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [COVID-Net Open Source Initiative](https://github.com/lindawangg/COVID-Net),  [COVID-CT-Dataset: A CT Scan Dataset about COVID-19](https://github.com/UCSD-AI4H/COVID-CT),  [National Institutes of Health](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images), [JHU CSSE COVID-19 Dataset](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 ### Porque vários datasets? 
-
 É comum os modelos de detectção de COVID-19 usarem apenas duas classes em busca da melhor (96%) usando imagens:
-1 - "NORMAL"
-2 - "COVID-19", no entanto isto não esplica subnotificação, falso positivo ou negativo, ou o numero exorbitante e assustador de pacientes que morrem `aguardando o resultado do diagnóstico`.Para mudar isso incluimos:
-3 - "CPGC: Classes Patologicas Genéricas Conhecidas". O que aumeta a assertividade do Modelo: São elas:
+1 - `"NORMAL"`.
+2 - `"COVID-19"`, no entanto isto não esplica subnotificação, falso positivo ou negativo, ou o numero exorbitante e assustador de pacientes que morrem `aguardando o resultado do diagnóstico`.Para mudar isso incluimos incluimos as classes:
+3 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Aumento signficativo da assertividade do Modelo: São elas:
 
-```{"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1","labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}```
+```{"tfjsVersion":"1.3.1","tmVersion":"2.1.2",```
+```"packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1",```
+`"labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}`
 
 # Nota:
 Adicionamos a classe "NIMG" para quando for usado webcam para leitura de raio x ou tomografia não gerando falsos (positivos e negativos) quando fora da área de leitura da imagem. Essa clase signfica "NÃO IMAGEM"
@@ -34,7 +35,7 @@ mais ou menos tempo para vc iar a praia, passear com seu cachorro, amar, pular c
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/457/datas/original.png" /><br /><br />
 </div>
 
-### Você tem uma imagem ai para testar agora \o/ ??!! \o/ [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
+### Você tem uma imagem ai para testar agora??!! \o/ [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
 ### Próximo passos.
 
