@@ -18,14 +18,14 @@ O Modelo DULI foi treinado usando a biblioteca [TensorFlow.js](https://js.tensor
 ### Diversidade de datasets? 
 Ps modelos DeepLearning geralmente são treinados com apenas duas classes, motivados pela busca da melhor `acurácia`, (96%):
 - `"NORMAL"`
-- `"COVID-19"` 
-Isso signfica zero assertividade em detectar outras patologias normalmente associadas ao COVID-19, ou seja,  `subnotificação`, gerando um  exorbitante e assustador número de pacientes que morrem em casa ou nos hospitais `Aguardando Resultado`.
+- `"COVID-19"`. 
+- Isso signfica zero assertividade em detectar outras patologias normalmente associadas ao COVID-19, ou seja,  `subnotificação`, gerando um  exorbitante e assustador número de pacientes que morrem em casa ou nos hospitais `Aguardando Resultado`.
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
 </div> 
 
-## Para mudar isso incluimos  as classes:
+## Para mudar isso incluimos no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) as classes:
 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em melhor `assertividade`.
 - As `CPGC`:
 
@@ -43,7 +43,7 @@ Identificamos subnotificão em bases oficiais.
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/457/datas/original.png" /><br /><br />
 </div>
 
-### Você tem uma imagem ai para testar o DULI agora?!?! [CLICK AQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
+### Você tem uma imagem para testar? Click agora em [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
 ### Próximo passos.
 
@@ -52,7 +52,7 @@ Identificamos subnotificão em bases oficiais.
 NOTA: 80% dos óbitos intalianos estavam associados a cardiopatia, mas não ficou claro se eram grupos de riscos ou resultante de lesões provovocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias, traçando a correlação COVID-19.
 
 ### Desenvolvimento
-## Instale dependências executando (semelhante a npm install)
+### Instale dependências executando (semelhante a npm install)
 ```
 yarn
 ```
@@ -69,7 +69,7 @@ yarn run watch
 - Executar `yarn eslint` para es6 de erros e avisos
 - Executar `yarn stylint` para stylus de erros e avisos
 
-#### Para executar https localmente:
+### Para executar https localmente:
 https é necessário para que as permissões da câmera do pc ou celular funcionem quando não estiver trabalhando com `localhost`
 
 1 - Gerar chaves
