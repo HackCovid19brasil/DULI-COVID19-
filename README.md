@@ -1,4 +1,4 @@
-# [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr): Detector Universal de Lesões por Imagens
+# [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr): Detector Universal de COVID-19 por Imagens
 
 
 <div align="center">
@@ -7,7 +7,7 @@
 
 
 ## Sobre
-O Modelo DULI foi treinado usando a biblioteca [TensorFlow.js](https://js.tensorflow.org/).
+O Modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) foi treinado usando a biblioteca [TensorFlow.js](https://js.tensorflow.org/).
 
 ### Customize e treine seus modelo apartir do Modelo DULI.
 
@@ -26,8 +26,8 @@ Ps modelos DeepLearning geralmente são treinados com apenas duas classes, motiv
 </div> 
 
 ### Para mudar isso incluimos no modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) as classes:
-- `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em melhor `assertividade`.
-- As `CPGC`:
+- `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em `assertividade` do modelo.
+- As classes `CPGC`:
 
 `{"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1",`
 
