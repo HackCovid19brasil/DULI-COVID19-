@@ -17,9 +17,17 @@ O Modelo DULI foi treinado usando a biblioteca [TensorFlow.js](https://js.tensor
 
 ### Diversidade de datasets? 
 Em geral, os modelos deeplearning são treinados com apenas duas classes, motivados pela melhor `acurácia` (96%):
-- `"NORMAL"` e
-- `"COVID-19"` o que signfica incapacidade de detectar outras patologias, gerando `falso positivo`e `falso negativo` ou seja, um  exorbitante e assustador de pacientes que morrem em casa ou nos hospitais `aguardando o resultado do diagnóstico`. Para mudar isso incluimos  as classes:
-3 - `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em melhor `assertividade` pois não faz sentido elevada acurácia se não somos capazes de entregar assertividade mínima. São elas:
+- `"NORMAL"`
+- `"COVID-19"` 
+Isso signfica incapacidade de detectar outras patologias (`falso positivo`e `falso negativo`) ou seja, um  exorbitante e assustador número de pacientes que morrem em casa ou nos hospitais `aguardando o resultado do diagnóstico`.
+
+<div align="center">
+  <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/095/316/datas/original.jpg" /><br /><br />
+</div> 
+
+## Para mudar isso incluimos  as classes:
+- `"CPGC: Classes Patologicas Genéricas Conhecidas"`. Resultando em melhor `assertividade`.
+- As `CPGC`:
 
 `{"tfjsVersion":"1.3.1","tmVersion":"2.1.2","packageVersion":"0.8.4","packageName":"@teachablemachine/image","timeStamp":"2020-05-20T11:28:36.478Z","userMetadata":{},"modelName":"mellieri human covid detecta 1",`
 
@@ -30,15 +38,12 @@ Adicionamos a classe "NIMG" para quando for usado webcam para leitura de raio x 
 
 ### Resultados:
 Identificamos subnotificão em bases oficiais.
-### O que signfica + ou menos subnotificação? 
-mais ou menos óbitos.
-mais ou menos tempo para vc iar a praia, passear com seu cachorro, amar, pular carnaval, ir a igreja, ...,...
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/457/datas/original.png" /><br /><br />
 </div>
 
-### Você tem uma imagem ai para testar agora??!! \o/ [CLICK AAQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
+### Você tem uma imagem ai para testar o DULI agora?!?! [CLICK AQUI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
 ### Próximo passos.
 
