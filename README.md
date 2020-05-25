@@ -34,7 +34,7 @@ Treinar o modelo Deep Learning [DULI](https://teachablemachine.withgoogle.com/mo
 ``` "labels":["saars","Pneumocistose","pneumonia aspiração","pneumonia cavitante","pneumonia-clamídia-L","pneumonia por Klebsiella","pneumonia legionella","pneumonia pneumococcal","pneumonia pneumocystis carinii","pneumonia pneumocystis jirovecii","pneumonia pneumocystis-","Pneumonia Streptococcus ","NORMAL","Pneumonia","Covid-19 ARDS","Covid-19 & Pneumonia","Covid-19 Tomografia Coputadorizada ","Não Covid-19 Tomografia Computadorizada ","Covid-19","NIMG"]}```
 
 ### Nota:
-Adicionamos a classe "NIMG" para quando for usado webcam para leitura de raio x ou tomografia não gerando falsos (positivos e negativos) quando fora da área de leitura da imagem. Essa clase signfica "NÃO IMAGEM"
+Adicionamos a classe `"NIMG" (NÃO IMAGEM)` útil no modo webcam, impedindo falsos positivos/negativos quando a leitura fora da área de leitura das imagens fisicas de raio x ou tomografica. ssa clase signfica "NÃO IMAGEM"
 
 ### Resultados:
 - Identificamos subnotificão em bases oficiais.
@@ -51,7 +51,9 @@ Adicionamos a classe "NIMG" para quando for usado webcam para leitura de raio x 
 
 1 - Detector de patologias por voz/assistentes uma treinado o modelo por voz, convertendo as analises clinicas em voz 
 2 - Detector Universal de Patologias (cancer, insuficência cardíaca) uma vez que temos e aumentaremos o acesso a diversidade de datasetes não disponiveis até pouco tempo o que demanda parceria com o [NLCC](htt ps://www.lncc.br/). Modelado e treinado, distribuimos carga aos AWS privados para tornar escalável a solução.
-NOTA: 80% dos óbitos intalianos estavam associados a cardiopatia, mas não ficou claro se eram grupos de riscos ou resultante de lesões provovocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias, traçando a correlação COVID-19.
+
+##NOTA:##
+80% dos óbitos intalianos estavam associados a cardiopatia, mas não ficou claro se eram grupos de riscos ou resultante de lesões provovocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias, traçando a correlação COVID-19.
 
 ### Desenvolvimento
 ### Instale dependências executando (semelhante a npm install)
