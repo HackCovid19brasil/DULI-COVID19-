@@ -16,7 +16,7 @@ O Modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) foi tr
 [`CanalSandeco`](https://github.com/scoobiii/CanalSandeco/tree/master/Deep%20Learning%20s%C3%A9rie/%2315%20-%20Detectando%20Covid-19%20em%20imagens%20m%C3%A9dicas/dataset), [`ieee8023/covid-chestxray-dataset`](https://github.com/scoobiii/covid-chestxray-dataset/tree/master/images),  [`COVID-Net Open Source Initiative`](https://github.com/lindawangg/COVID-Net),  [`COVID-CT-Dataset: A CT Scan Dataset about COVID-19`](https://github.com/UCSD-AI4H/COVID-CT),  [`National Institutes of Health`](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images) e [`JHU CSSE COVID-19 Dataset`](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 ### Diversidade de datasets? 
-Geralmente os modelos DeepLearning são treinados com duas classes, e, embora possuam elevada `acurácia`, (96%) possui zero assertividade a saber:
+Geralmente os modelos DeepLearning para detecção de patologias são treinados com duas classes, e, embora possuam elevada `acurácia`, (96%) possuem zero assertividade a saber:
 - `"NORMAL"`
 - `"COVID-19"`. 
 - Imcapacidade de detectar outras patologias normalmente associadas ao COVID-19, resultando em zero assertividade, ou seja, `subnotificação`, que significam elevado número de óbitos de pacientes em casa ou nos hospitais `Aguardando Resultado`.
@@ -49,11 +49,11 @@ Adicionamos a classe `"NIMG" (NÃO IMAGEM)` útil no modo webcam, impedindo fals
 ### Próximo passos.
 - Detector de patologias por voz/assistentes.
 - Detector Universal de Patologias (cancer, insuficência cardíaca, .., outros)
-- Parceria Estratégica com o [NLCC](htt ps://www.lncc.br/) em virtude da quantidade e diversidade de datasets processados pelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
+- Parceria Estratégica [NLCC](htt ps://www.lncc.br/) em virtude da quantidade e diversidade de datasets processados pelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr).
 
 
 ##NOTA:
-80% dos óbitos Italianos provocados pela pandemi de COVID-19 estavam associados a insuficiência cardiovascular, mas não ficou claro se eram grupos de risco ou resultante de lesões provovocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias que o modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) pode entregar.
+80% dos óbitos Italianos provocados pela pandemia de COVID-19 estavam associados a insuficiência cardiovascular, mas não ficou claro se eram grupos de risco ou resultante de lesões provocadas pelo COVID-19. Agora podemos descobrir, pela correlação e análise de diversas patologias que o modelo [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr) pode processar e entregar.
 
 ### Desenvolvimento
 ### Instale dependências executando (semelhante a npm install)
