@@ -1,4 +1,4 @@
-# [DULI](https://teachablemachine.withgoogle.com/models/1f9ATyXbr): Detector Universal de Lesões por Imagem [COVID-19]
+# [DULI] Detector Universal de Lesões por Imagem [COVID-19]
 
 
 <div align="center">
