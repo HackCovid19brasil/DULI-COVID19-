@@ -1,5 +1,9 @@
 # [DULI] Detector Universal de Lesões por Imagem [COVID-19]
 
+Versão APP e fontes acima: 
+DULI_APP_Android.apk	
+DULI_Android_Fontes.tar.gz
+
 
 <div align="center">
   <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/100/426/datas/original.png" /><br /><br />
